@@ -1,0 +1,1 @@
+import{Za as a,_a as r,ba as o,jb as i,mb as s}from"./chunk-V5GLINCU.js";var m=(()=>{let e=class e{};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-stock-trade"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,p){n&1&&(a(0,"p"),i(1,"stock-trade works!"),r())}});let t=e;return t})();export{m as StockTradeComponent};

@@ -1,0 +1,10 @@
+<div class="container-fluid h-100 bg-dark">
+    @if(authService.isLoggedIn){
+    <div class="fixed-top bg-light">
+        <app-header></app-header>
+    </div>
+    }
+    <div class="row align-items-center justify-content-center p-5">
+        <router-outlet></router-outlet>
+    </div>
+</div>

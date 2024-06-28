@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row p-5">
+        @if(accounts().length > 0){<div class="col-md-12">
+            <h2 class="text-light">Select Trade Account</h2>
+            <div class="mt-3">
+                <select (change)="selectAccount($event)" class="form-select">
+                    <option value="null" selected disabled>Account...</option>
+                    @for(account of accounts(); track $index){
+                    <option [value]="account.accNum">{{account.name}}</option>
+                    }
+                </select>
+            </div>
+        </div>
+        }
+    </div>
+</div>

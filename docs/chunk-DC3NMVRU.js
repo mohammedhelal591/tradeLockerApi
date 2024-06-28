@@ -1,0 +1,1 @@
+import{Za as i,_a as s,ba as o,jb as a,mb as r}from"./chunk-V5GLINCU.js";var m=(()=>{let t=class t{};t.\u0275fac=function(n){return new(n||t)},t.\u0275cmp=o({type:t,selectors:[["app-stock-list"]],standalone:!0,features:[r],decls:2,vars:0,template:function(n,p){n&1&&(i(0,"p"),a(1,"stock-list works!"),s())}});let e=t;return e})();export{m as StockListComponent};
